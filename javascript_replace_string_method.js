@@ -5,7 +5,6 @@
 customReplace = function (actualString, subString, repString) {
     let newString = "";
     let newStringLength = actualString.length - subString.length + repString.length;
-    newString.length = newStringLength;
     let upCount = 0; 
     let indexCount = 0;
     let j = 0;
