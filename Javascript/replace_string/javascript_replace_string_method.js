@@ -60,3 +60,5 @@ customReplace = function (actualString, subString, repString) {
     }
     return customReplace(newString, subString, repString);
 };
+
+export default customReplace;
