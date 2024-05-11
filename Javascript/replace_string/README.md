@@ -42,6 +42,7 @@ customReplace(actualString, subString, repString)
 
 ## Example Usage
 ```javascript
+import customReplace from "./javascript_replace_string_method.js";
 const actualString = "What is a Whale, and is a Whale a mammal?";
 console.log(customReplace(actualString, "Whale", "Gorilla"));
 // Output: "What is a Gorilla, and is a Gorilla a mammal?"
